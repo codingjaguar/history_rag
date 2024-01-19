@@ -128,9 +128,9 @@ ask
 ## FAQ
 
 **问题**：huggingface无法连接上，无法下载模型怎么办？
-```bash
+
 回答：将`export HF_ENDPOINT=https://hf-mirror.com`添加到你的环境变量中。
-```
+
 **问题**：模型太大，网络连接不稳定，容易失败怎么办？
 ```bash
 回答：以此命令为例，使用`huggingface-cli download --resume-download --local-dir-use-symlinks False BAAI/bge-reranker-large --local-dir bge-reranker-large`
